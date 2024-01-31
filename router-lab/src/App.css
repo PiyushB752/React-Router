@@ -1,0 +1,26 @@
+body{
+  background-color: white;
+  color: black;
+}
+nav{
+  position: absolute;
+  top: 0;
+  font-size: 40px;
+  background-color: #2a2a2a;
+  color: black;
+  height: 70px;
+  width: 100%;  
+}
+.links{
+  position: absolute;
+  right: -40px;
+  top: 0;
+  display: grid;
+  grid-template-columns: repeat(2,200px);
+}
+nav Link{
+  color: white;
+}
+.Link{
+  color: white;
+}
